@@ -22,8 +22,11 @@
 <p align="center">
     <img src =https://github.com/Ayush19-01/Digital-Marketing-Lane/blob/main/Screenshot%202023-03-18%20202247.png>
 </p>
+
 ## Through browser(django apiview)
+
 ### 1. Invoice API = 127.0.0.1:8000/invoice/
+
 #### Type the following link for GET request: 
 
 ```python
@@ -45,9 +48,10 @@
   "cust_name" : "y",
 }
   ```
-  ### Here replace 1 with the invoice number and x with the customer name and click post
+### Here replace 1 with the invoice number and x with the customer name and click post
   
 ### 2. Invoice Detail API = 127.0.0.1:8000/invoice_detail/
+
 #### Type the following link for GET request: 
 
 ```python
