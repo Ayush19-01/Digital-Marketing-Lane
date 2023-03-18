@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from models import Invoice,InvoiceDetail
+from invoice.models import Invoice,InvoiceDetail
 
 class InvoiceSerializers(serializers.HyperlinkedModelSerializer):
     class Meta:

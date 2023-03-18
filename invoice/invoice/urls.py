@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from api import API
+from invoice.api import InvoiceAPI,InvoiceDetailAPI
 urlpatterns = [
-    path('invoice/', API.as_view()),
+    path('admin/', admin.site.urls),
+    path('invoice/',InvoiceAPI.as_view()),
+    path('invoice_detail/',InvoiceDetailAPI.as_view()),
 ]
